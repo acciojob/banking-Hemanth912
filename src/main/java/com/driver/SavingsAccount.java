@@ -43,10 +43,6 @@ public class SavingsAccount extends BankAccount{
 
         super.withdraw(amount);
 
-        if(amount-this.getBalance()<this.getMinBalance())
-            throw new Exception("Insufficient Balance");
-
-
     }
 
     public double getSimpleInterest(int years){
