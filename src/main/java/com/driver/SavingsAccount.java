@@ -12,13 +12,6 @@ public class SavingsAccount extends BankAccount{
         this.rate = rate;
     }
 
-    public SavingsAccount(double rate, double maxWithdrawalLimit) {
-        this.rate = rate;
-        this.maxWithdrawalLimit = maxWithdrawalLimit;
-    }
-
-
-
     public double getMaxWithdrawalLimit() {
         return maxWithdrawalLimit;
     }

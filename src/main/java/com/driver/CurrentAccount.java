@@ -5,9 +5,7 @@ import java.util.Arrays;
 public class CurrentAccount extends BankAccount{
     String tradeLicenseId; //consists of Uppercase English characters only
 
-    public CurrentAccount(String tradeLicenseId) {
-        this.tradeLicenseId = tradeLicenseId;
-    }
+
 
     public String getTradeLicenseId() {
         return tradeLicenseId;
